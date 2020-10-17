@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Environment</title>
+        <link rel="stylesheet" href="css/en_main1.css">
+        <link rel="stylesheet" href="css/ex.css">
+        <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.outer-menu-item').hover(function(){
+            $(this). find('.inner-menu').show();
+            },function(){
+                $(this).find('.inner-menu').hide();
+            });
+        });
+    </script>     
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <nav>
+                    <ul id="main-nav">
+                        <li class="outer-menu-item">
+                            <span class="menu-title">ENVIRONMENT</span>
+                            <ul class="inner-menu">
+                                <li class="inner-menu-item"><a href="en_sub1.html">데이지</a></li>
+                                <li class="inner-menu-item"><a href="#">해바라기</a></li>
+                                <li class="inner-menu-item"><a href="#">해바라기</a></li>
+                            </ul>                    
+                        </li>
+                        <li class="outer-menu-item">
+                            <span class="menu-title">ECOSYSTEM</span>
+                            <ul class="inner-menu">
+                                <li class="inner-menu-item"><a href="#">데이지</a></li>
+                                <li class="inner-menu-item"><a href="#">해바라기</a></li>
+                                <li class="inner-menu-item"><a href="#">해바라기</a></li>
+                            </ul>                    
+                        </li>
+                        <li class="outer-menu-item">
+                            <span class="menu-title">RESULT</span>
+                            <ul class="inner-menu">
+                                <li class="inner-menu-item"><a href="#">데이지</a></li>
+                                <li class="inner-menu-item"><a href="#">해바라기</a></li>
+                                <li class="inner-menu-item"><a href="#">해바라기</a></li>
+                            </ul>                    
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <section id="intro">
+                <div class="page-title">
+                    <h4>
+                        환경의 심각성
+                    </h4>
+                </div>
+                <section class="wrap">
+                    <div class="content">
+                        <ul>
+                            <li><a href="#">
+                                <p class="plan">분양<br>예정</p>
+                                <p class="img"><img src="img16/plastic.jpeg" alt=" 플라스틱 "></p>
+                                <div class="bottombox">
+                                    <p>2020.10<span>분양예정</span></p>
+                                    <p class="title">레이카운티</p>
+                                    <p>부산광역시 연제구 거제동 802번지 일원</p>
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <p class="plan">분양<br>예정</p>
+                                <p class="img"><img src="img16/lpanda.jpg" alt=" 랫서판다 "></p>
+                                <div class="bottombox">
+                                    <p>2020.10<span>분양예정</span></p>
+                                    <p class="title">레이카운티</p>
+                                    <p>부산광역시 연제구 거제동 802번지 일원</p>
+                                </div>
+                            </a></li>
+                            <li><a href="#">
+                                <p class="plan">분양<br>예정</p>
+                                <p class="img"><img src="img16/desert.jpg" alt=" 사막 "></p>
+                                <div class="bottombox">
+                                    <p>2020.10<span>분양예정</span></p>
+                                    <p class="title">레이카운티</p>
+                                    <p>부산광역시 연제구 거제동 802번지 일원</p>
+                                </div>
+                            </a></li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+            <footer>
+                <p>용동중학교 3학년 4반 김서연</p>
+            </footer>
+        </div>
+    </body>
+</html>
